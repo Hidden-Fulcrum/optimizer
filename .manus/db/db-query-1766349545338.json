@@ -1,0 +1,20 @@
+{
+  "query": "SELECT * FROM production_logs WHERE id = 1",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 312dgmdUEzMUaK3.root --database Zag33ga6oUbL9GVhsFok4K --execute SELECT * FROM production_logs WHERE id = 1",
+  "rows": [
+    {
+      "id": "1",
+      "user_id": "1",
+      "scenario_id": "NULL",
+      "production_date": "2025-12-21 20:30:07",
+      "total_actual_minutes": "345",
+      "total_estimated_minutes": "175",
+      "notes": "",
+      "createdAt": "2025-12-21 20:30:07"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tuser_id\tscenario_id\tproduction_date\ttotal_actual_minutes\ttotal_estimated_minutes\tnotes\tcreatedAt\n1\t1\tNULL\t2025-12-21 20:30:07\t345\t175\t\t2025-12-21 20:30:07\n",
+  "stderr": "",
+  "execution_time_ms": 49
+}

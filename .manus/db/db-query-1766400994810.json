@@ -1,0 +1,15 @@
+{
+  "query": "SELECT production_log_id, COUNT(*) as task_count, SUM(CASE WHEN actual_minutes IS NOT NULL AND actual_minutes > 0 THEN 1 ELSE 0 END) as tasks_with_actual FROM production_log_tasks WHERE production_log_id IN (SELECT MIN(id) FROM production_logs UNION SELECT 30001) GROUP BY production_log_id",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 312dgmdUEzMUaK3.root --database Zag33ga6oUbL9GVhsFok4K --execute SELECT production_log_id, COUNT(*) as task_count, SUM(CASE WHEN actual_minutes IS NOT NULL AND actual_minutes > 0 THEN 1 ELSE 0 END) as tasks_with_actual FROM production_log_tasks WHERE production_log_id IN (SELECT MIN(id) FROM production_logs UNION SELECT 30001) GROUP BY production_log_id",
+  "rows": [
+    {
+      "production_log_id": "1",
+      "task_count": "14",
+      "tasks_with_actual": "14"
+    }
+  ],
+  "messages": [],
+  "stdout": "production_log_id\ttask_count\ttasks_with_actual\n1\t14\t14\n",
+  "stderr": "",
+  "execution_time_ms": 54
+}

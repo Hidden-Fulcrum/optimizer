@@ -1,0 +1,9 @@
+{
+  "query": "INSERT INTO equipment_constraints (user_id, equipment_name, capacity, unit, meal_capacity) VALUES \n(1, 'Oven', 2, 'ovens', 50),\n(1, 'Blast Chiller', 5, 'trays', NULL);",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 312dgmdUEzMUaK3.root --database Zag33ga6oUbL9GVhsFok4K --execute INSERT INTO equipment_constraints (user_id, equipment_name, capacity, unit, meal_capacity) VALUES \n(1, 'Oven', 2, 'ovens', 50),\n(1, 'Blast Chiller', 5, 'trays', NULL);",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 65
+}

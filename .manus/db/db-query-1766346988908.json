@@ -1,0 +1,58 @@
+{
+  "query": "SELECT id, task_type, name, default_duration_minutes FROM task_templates ORDER BY id;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 312dgmdUEzMUaK3.root --database Zag33ga6oUbL9GVhsFok4K --execute SELECT id, task_type, name, default_duration_minutes FROM task_templates ORDER BY id;",
+  "rows": [
+    {
+      "id": "1",
+      "task_type": "grind_protein",
+      "name": "Grind Protein",
+      "default_duration_minutes": "15"
+    },
+    {
+      "id": "2",
+      "task_type": "cook_protein",
+      "name": "Cook Protein",
+      "default_duration_minutes": "30"
+    },
+    {
+      "id": "3",
+      "task_type": "blast_chill",
+      "name": "Blast Chill",
+      "default_duration_minutes": "20"
+    },
+    {
+      "id": "4",
+      "task_type": "cook_rice_pasta",
+      "name": "Cook Rice/Pasta",
+      "default_duration_minutes": "25"
+    },
+    {
+      "id": "5",
+      "task_type": "make_sauces",
+      "name": "Make Sauces/Sides",
+      "default_duration_minutes": "20"
+    },
+    {
+      "id": "6",
+      "task_type": "assemble_meals",
+      "name": "Assemble Meals",
+      "default_duration_minutes": "40"
+    },
+    {
+      "id": "7",
+      "task_type": "package_label",
+      "name": "Package & Label",
+      "default_duration_minutes": "15"
+    },
+    {
+      "id": "8",
+      "task_type": "bake_desserts",
+      "name": "Bake Desserts",
+      "default_duration_minutes": "35"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\ttask_type\tname\tdefault_duration_minutes\n1\tgrind_protein\tGrind Protein\t15\n2\tcook_protein\tCook Protein\t30\n3\tblast_chill\tBlast Chill\t20\n4\tcook_rice_pasta\tCook Rice/Pasta\t25\n5\tmake_sauces\tMake Sauces/Sides\t20\n6\tassemble_meals\tAssemble Meals\t40\n7\tpackage_label\tPackage & Label\t15\n8\tbake_desserts\tBake Desserts\t35\n",
+  "stderr": "",
+  "execution_time_ms": 70
+}

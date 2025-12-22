@@ -1,0 +1,9 @@
+{
+  "query": "UPDATE meal_items SET\n  chicken_oz = CASE \n    WHEN name = 'Chicken Alfredo' THEN 5.44\n    WHEN name = 'Chicken Parmesan' THEN 5.44\n    WHEN name = 'Chicken Taco' THEN 5.44\n    ELSE chicken_oz\n  END,\n  beef_oz = CASE\n    WHEN name = 'Birria Beef' THEN 5.6\n    WHEN name = 'Bacon Burger Bowl' THEN 5.6\n    ELSE beef_oz\n  END,\n  pasta_grams = CASE\n    WHEN name = 'Chicken Alfredo' THEN 42\n    WHEN name = 'Chicken Parmesan' THEN 42\n    ELSE pasta_grams\n  END,\n  rice_cups = CASE\n    WHEN name = 'Chicken Taco' THEN 0.2\n    WHEN name = 'Birria Beef' THEN 0.2\n    ELSE rice_cups\n  END,\n  potato_oz = CASE\n    WHEN name = 'Bacon Burger Bowl' THEN 5.12\n    ELSE potato_oz\n  END;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 312dgmdUEzMUaK3.root --database Zag33ga6oUbL9GVhsFok4K --execute UPDATE meal_items SET\n  chicken_oz = CASE \n    WHEN name = 'Chicken Alfredo' THEN 5.44\n    WHEN name = 'Chicken Parmesan' THEN 5.44\n    WHEN name = 'Chicken Taco' THEN 5.44\n    ELSE chicken_oz\n  END,\n  beef_oz = CASE\n    WHEN name = 'Birria Beef' THEN 5.6\n    WHEN name = 'Bacon Burger Bowl' THEN 5.6\n    ELSE beef_oz\n  END,\n  pasta_grams = CASE\n    WHEN name = 'Chicken Alfredo' THEN 42\n    WHEN name = 'Chicken Parmesan' THEN 42\n    ELSE pasta_grams\n  END,\n  rice_cups = CASE\n    WHEN name = 'Chicken Taco' THEN 0.2\n    WHEN name = 'Birria Beef' THEN 0.2\n    ELSE rice_cups\n  END,\n  potato_oz = CASE\n    WHEN name = 'Bacon Burger Bowl' THEN 5.12\n    ELSE potato_oz\n  END;",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 107
+}

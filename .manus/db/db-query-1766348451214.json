@@ -1,0 +1,16 @@
+{
+  "query": "SELECT id, name, task_type, default_duration_minutes FROM task_templates WHERE task_type = 'oatmeal_prep';",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 312dgmdUEzMUaK3.root --database Zag33ga6oUbL9GVhsFok4K --execute SELECT id, name, task_type, default_duration_minutes FROM task_templates WHERE task_type = 'oatmeal_prep';",
+  "rows": [
+    {
+      "id": "30001",
+      "name": "Oatmeal Prep",
+      "task_type": "oatmeal_prep",
+      "default_duration_minutes": "25"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tname\ttask_type\tdefault_duration_minutes\n30001\tOatmeal Prep\toatmeal_prep\t25\n",
+  "stderr": "",
+  "execution_time_ms": 118
+}

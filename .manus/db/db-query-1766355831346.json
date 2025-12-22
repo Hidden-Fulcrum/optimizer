@@ -1,0 +1,9 @@
+{
+  "query": "UPDATE meal_items SET chicken_oz = 4.0, pasta_grams = 90.0 WHERE name = 'Chicken Alfredo';\nUPDATE meal_items SET chicken_oz = 4.0, pasta_grams = 90.0 WHERE name = 'Chicken Parmesan';\nUPDATE meal_items SET chicken_oz = 4.1, rice_cups = 0.5 WHERE name = 'Chicken Taco';\nUPDATE meal_items SET beef_oz = 4.1, potato_oz = 3.0 WHERE name = 'Bacon Burger Bowl';\nUPDATE meal_items SET beef_oz = 5.2, rice_cups = 0.5 WHERE name = 'Birria Beef';",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 312dgmdUEzMUaK3.root --database Zag33ga6oUbL9GVhsFok4K --execute UPDATE meal_items SET chicken_oz = 4.0, pasta_grams = 90.0 WHERE name = 'Chicken Alfredo';\nUPDATE meal_items SET chicken_oz = 4.0, pasta_grams = 90.0 WHERE name = 'Chicken Parmesan';\nUPDATE meal_items SET chicken_oz = 4.1, rice_cups = 0.5 WHERE name = 'Chicken Taco';\nUPDATE meal_items SET beef_oz = 4.1, potato_oz = 3.0 WHERE name = 'Bacon Burger Bowl';\nUPDATE meal_items SET beef_oz = 5.2, rice_cups = 0.5 WHERE name = 'Birria Beef';",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 103
+}

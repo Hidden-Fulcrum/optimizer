@@ -1,0 +1,1 @@
+ALTER TABLE `production_logs` ADD `run_number` int NOT NULL;

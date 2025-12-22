@@ -1,0 +1,108 @@
+{
+  "query": "SELECT id, task_name, task_type, estimated_minutes, actual_minutes FROM production_log_tasks WHERE production_log_id = 1 ORDER BY id",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 312dgmdUEzMUaK3.root --database Zag33ga6oUbL9GVhsFok4K --execute SELECT id, task_name, task_type, estimated_minutes, actual_minutes FROM production_log_tasks WHERE production_log_id = 1 ORDER BY id",
+  "rows": [
+    {
+      "id": "1",
+      "task_name": "Cook rice/pasta",
+      "task_type": "passive",
+      "estimated_minutes": "25",
+      "actual_minutes": "30"
+    },
+    {
+      "id": "2",
+      "task_name": "Grind chicken (15.0 lbs)",
+      "task_type": "active",
+      "estimated_minutes": "15",
+      "actual_minutes": "20"
+    },
+    {
+      "id": "3",
+      "task_name": "Cook chicken (3 trays)",
+      "task_type": "passive",
+      "estimated_minutes": "30",
+      "actual_minutes": "33"
+    },
+    {
+      "id": "4",
+      "task_name": "Prep rice krispy treats",
+      "task_type": "active",
+      "estimated_minutes": "10",
+      "actual_minutes": "12"
+    },
+    {
+      "id": "5",
+      "task_name": "Make brownie mix",
+      "task_type": "active",
+      "estimated_minutes": "10",
+      "actual_minutes": "8"
+    },
+    {
+      "id": "6",
+      "task_name": "Blast chill chicken",
+      "task_type": "passive",
+      "estimated_minutes": "20",
+      "actual_minutes": "15"
+    },
+    {
+      "id": "7",
+      "task_name": "Make sauces/sides",
+      "task_type": "active",
+      "estimated_minutes": "20",
+      "actual_minutes": "35"
+    },
+    {
+      "id": "8",
+      "task_name": "Grind beef (10.0 lbs)",
+      "task_type": "active",
+      "estimated_minutes": "15",
+      "actual_minutes": "20"
+    },
+    {
+      "id": "9",
+      "task_name": "Cook beef (2 trays)",
+      "task_type": "passive",
+      "estimated_minutes": "30",
+      "actual_minutes": "45"
+    },
+    {
+      "id": "10",
+      "task_name": "Blast chill beef",
+      "task_type": "passive",
+      "estimated_minutes": "20",
+      "actual_minutes": "20"
+    },
+    {
+      "id": "11",
+      "task_name": "Bake desserts",
+      "task_type": "passive",
+      "estimated_minutes": "35",
+      "actual_minutes": "40"
+    },
+    {
+      "id": "12",
+      "task_name": "Let desserts rest",
+      "task_type": "passive",
+      "estimated_minutes": "15",
+      "actual_minutes": "10"
+    },
+    {
+      "id": "13",
+      "task_name": "Assemble meals",
+      "task_type": "active",
+      "estimated_minutes": "40",
+      "actual_minutes": "45"
+    },
+    {
+      "id": "14",
+      "task_name": "Package & label",
+      "task_type": "active",
+      "estimated_minutes": "15",
+      "actual_minutes": "12"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\ttask_name\ttask_type\testimated_minutes\tactual_minutes\n1\tCook rice/pasta\tpassive\t25\t30\n2\tGrind chicken (15.0 lbs)\tactive\t15\t20\n3\tCook chicken (3 trays)\tpassive\t30\t33\n4\tPrep rice krispy treats\tactive\t10\t12\n5\tMake brownie mix\tactive\t10\t8\n6\tBlast chill chicken\tpassive\t20\t15\n7\tMake sauces/sides\tactive\t20\t35\n8\tGrind beef (10.0 lbs)\tactive\t15\t20\n9\tCook beef (2 trays)\tpassive\t30\t45\n10\tBlast chill beef\tpassive\t20\t20\n11\tBake desserts\tpassive\t35\t40\n12\tLet desserts rest\tpassive\t15\t10\n13\tAssemble meals\tactive\t40\t45\n14\tPackage & label\tactive\t15\t12\n",
+  "stderr": "",
+  "execution_time_ms": 57
+}

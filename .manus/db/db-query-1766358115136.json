@@ -1,0 +1,20 @@
+{
+  "query": "SELECT * FROM equipment_constraints;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 312dgmdUEzMUaK3.root --database Zag33ga6oUbL9GVhsFok4K --execute SELECT * FROM equipment_constraints;",
+  "rows": [
+    {
+      "id": "1",
+      "user_id": "1",
+      "equipment_name": "Oven",
+      "capacity": "2",
+      "unit": "ovens",
+      "createdAt": "2025-12-21 22:54:47",
+      "updatedAt": "2025-12-21 22:54:47",
+      "meal_capacity": "50"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tuser_id\tequipment_name\tcapacity\tunit\tcreatedAt\tupdatedAt\tmeal_capacity\n1\t1\tOven\t2\tovens\t2025-12-21 22:54:47\t2025-12-21 22:54:47\t50\n",
+  "stderr": "",
+  "execution_time_ms": 282
+}

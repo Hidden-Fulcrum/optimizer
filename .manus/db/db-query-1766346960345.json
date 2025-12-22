@@ -1,0 +1,154 @@
+{
+  "query": "SELECT * FROM task_templates;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 312dgmdUEzMUaK3.root --database Zag33ga6oUbL9GVhsFok4K --execute SELECT * FROM task_templates;",
+  "rows": [
+    {
+      "id": "1",
+      "name": "Grind Protein",
+      "task_type": "grind_protein",
+      "default_duration_minutes": "15",
+      "can_run_in_parallel": "0",
+      "requires_equipment": "grinder",
+      "createdAt": "2025-12-21 17:15:36"
+    },
+    {
+      "id": "2",
+      "name": "Cook Protein",
+      "task_type": "cook_protein",
+      "default_duration_minutes": "30",
+      "can_run_in_parallel": "0",
+      "requires_equipment": "oven",
+      "createdAt": "2025-12-21 17:15:36"
+    },
+    {
+      "id": "3",
+      "name": "Blast Chill",
+      "task_type": "blast_chill",
+      "default_duration_minutes": "20",
+      "can_run_in_parallel": "0",
+      "requires_equipment": "blast_chiller",
+      "createdAt": "2025-12-21 17:15:36"
+    },
+    {
+      "id": "4",
+      "name": "Cook Rice/Pasta",
+      "task_type": "cook_rice_pasta",
+      "default_duration_minutes": "25",
+      "can_run_in_parallel": "1",
+      "requires_equipment": "stove",
+      "createdAt": "2025-12-21 17:15:36"
+    },
+    {
+      "id": "5",
+      "name": "Make Sauces/Sides",
+      "task_type": "make_sauces",
+      "default_duration_minutes": "20",
+      "can_run_in_parallel": "1",
+      "requires_equipment": "NULL",
+      "createdAt": "2025-12-21 17:15:36"
+    },
+    {
+      "id": "6",
+      "name": "Assemble Meals",
+      "task_type": "assemble_meals",
+      "default_duration_minutes": "40",
+      "can_run_in_parallel": "0",
+      "requires_equipment": "NULL",
+      "createdAt": "2025-12-21 17:15:36"
+    },
+    {
+      "id": "7",
+      "name": "Package & Label",
+      "task_type": "package_label",
+      "default_duration_minutes": "15",
+      "can_run_in_parallel": "0",
+      "requires_equipment": "NULL",
+      "createdAt": "2025-12-21 17:15:36"
+    },
+    {
+      "id": "8",
+      "name": "Bake Desserts",
+      "task_type": "bake_desserts",
+      "default_duration_minutes": "35",
+      "can_run_in_parallel": "1",
+      "requires_equipment": "oven",
+      "createdAt": "2025-12-21 17:15:36"
+    },
+    {
+      "id": "9",
+      "name": "Grind Protein",
+      "task_type": "grind_protein",
+      "default_duration_minutes": "15",
+      "can_run_in_parallel": "0",
+      "requires_equipment": "grinder",
+      "createdAt": "2025-12-21 17:15:58"
+    },
+    {
+      "id": "10",
+      "name": "Cook Protein",
+      "task_type": "cook_protein",
+      "default_duration_minutes": "30",
+      "can_run_in_parallel": "0",
+      "requires_equipment": "oven",
+      "createdAt": "2025-12-21 17:15:58"
+    },
+    {
+      "id": "11",
+      "name": "Blast Chill",
+      "task_type": "blast_chill",
+      "default_duration_minutes": "20",
+      "can_run_in_parallel": "0",
+      "requires_equipment": "blast_chiller",
+      "createdAt": "2025-12-21 17:15:58"
+    },
+    {
+      "id": "12",
+      "name": "Cook Rice/Pasta",
+      "task_type": "cook_rice_pasta",
+      "default_duration_minutes": "25",
+      "can_run_in_parallel": "1",
+      "requires_equipment": "stove",
+      "createdAt": "2025-12-21 17:15:58"
+    },
+    {
+      "id": "13",
+      "name": "Make Sauces/Sides",
+      "task_type": "make_sauces",
+      "default_duration_minutes": "20",
+      "can_run_in_parallel": "1",
+      "requires_equipment": "NULL",
+      "createdAt": "2025-12-21 17:15:58"
+    },
+    {
+      "id": "14",
+      "name": "Assemble Meals",
+      "task_type": "assemble_meals",
+      "default_duration_minutes": "40",
+      "can_run_in_parallel": "0",
+      "requires_equipment": "NULL",
+      "createdAt": "2025-12-21 17:15:58"
+    },
+    {
+      "id": "15",
+      "name": "Package & Label",
+      "task_type": "package_label",
+      "default_duration_minutes": "15",
+      "can_run_in_parallel": "0",
+      "requires_equipment": "NULL",
+      "createdAt": "2025-12-21 17:15:58"
+    },
+    {
+      "id": "16",
+      "name": "Bake Desserts",
+      "task_type": "bake_desserts",
+      "default_duration_minutes": "35",
+      "can_run_in_parallel": "1",
+      "requires_equipment": "oven",
+      "createdAt": "2025-12-21 17:15:59"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tname\ttask_type\tdefault_duration_minutes\tcan_run_in_parallel\trequires_equipment\tcreatedAt\n1\tGrind Protein\tgrind_protein\t15\t0\tgrinder\t2025-12-21 17:15:36\n2\tCook Protein\tcook_protein\t30\t0\toven\t2025-12-21 17:15:36\n3\tBlast Chill\tblast_chill\t20\t0\tblast_chiller\t2025-12-21 17:15:36\n4\tCook Rice/Pasta\tcook_rice_pasta\t25\t1\tstove\t2025-12-21 17:15:36\n5\tMake Sauces/Sides\tmake_sauces\t20\t1\tNULL\t2025-12-21 17:15:36\n6\tAssemble Meals\tassemble_meals\t40\t0\tNULL\t2025-12-21 17:15:36\n7\tPackage & Label\tpackage_label\t15\t0\tNULL\t2025-12-21 17:15:36\n8\tBake Desserts\tbake_desserts\t35\t1\toven\t2025-12-21 17:15:36\n9\tGrind Protein\tgrind_protein\t15\t0\tgrinder\t2025-12-21 17:15:58\n10\tCook Protein\tcook_protein\t30\t0\toven\t2025-12-21 17:15:58\n11\tBlast Chill\tblast_chill\t20\t0\tblast_chiller\t2025-12-21 17:15:58\n12\tCook Rice/Pasta\tcook_rice_pasta\t25\t1\tstove\t2025-12-21 17:15:58\n13\tMake Sauces/Sides\tmake_sauces\t20\t1\tNULL\t2025-12-21 17:15:58\n14\tAssemble Meals\tassemble_meals\t40\t0\tNULL\t2025-12-21 17:15:58\n15\tPackage & Label\tpackage_label\t15\t0\tNULL\t2025-12-21 17:15:58\n16\tBake Desserts\tbake_desserts\t35\t1\toven\t2025-12-21 17:15:59\n",
+  "stderr": "",
+  "execution_time_ms": 54
+}

@@ -1,0 +1,24 @@
+{
+  "query": "SELECT * FROM production_logs WHERE id = 30001 LIMIT 1",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 312dgmdUEzMUaK3.root --database Zag33ga6oUbL9GVhsFok4K --execute SELECT * FROM production_logs WHERE id = 30001 LIMIT 1",
+  "rows": [
+    {
+      "id": "30001",
+      "user_id": "1",
+      "scenario_id": "NULL",
+      "production_date": "2025-12-22 10:42:27",
+      "total_actual_minutes": "0",
+      "total_estimated_minutes": "125",
+      "notes": "",
+      "createdAt": "2025-12-22 10:42:27",
+      "total_wall_clock_minutes": "179",
+      "start_time": "NULL",
+      "end_time": "NULL",
+      "run_number": "0"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tuser_id\tscenario_id\tproduction_date\ttotal_actual_minutes\ttotal_estimated_minutes\tnotes\tcreatedAt\ttotal_wall_clock_minutes\tstart_time\tend_time\trun_number\n30001\t1\tNULL\t2025-12-22 10:42:27\t0\t125\t\t2025-12-22 10:42:27\t179\tNULL\tNULL\t0\n",
+  "stderr": "",
+  "execution_time_ms": 56
+}

@@ -1,0 +1,1 @@
+ALTER TABLE `production_logs` ADD `total_wall_clock_minutes` int;

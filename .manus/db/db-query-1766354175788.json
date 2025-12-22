@@ -1,0 +1,17 @@
+{
+  "query": "SELECT id, total_estimated_minutes, total_wall_clock_minutes, notes, production_date FROM production_logs WHERE id = 1",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 312dgmdUEzMUaK3.root --database Zag33ga6oUbL9GVhsFok4K --execute SELECT id, total_estimated_minutes, total_wall_clock_minutes, notes, production_date FROM production_logs WHERE id = 1",
+  "rows": [
+    {
+      "id": "1",
+      "total_estimated_minutes": "175",
+      "total_wall_clock_minutes": "NULL",
+      "notes": "",
+      "production_date": "2025-12-21 20:30:07"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\ttotal_estimated_minutes\ttotal_wall_clock_minutes\tnotes\tproduction_date\n1\t175\tNULL\t\t2025-12-21 20:30:07\n",
+  "stderr": "",
+  "execution_time_ms": 52
+}

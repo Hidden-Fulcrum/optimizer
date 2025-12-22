@@ -1,0 +1,8 @@
+{
+  "query": "INSERT INTO equipment_constraints (name, capacity, unit, meal_capacity) VALUES \n('Oven', 2, 'ovens', 50),\n('Blast Chiller', 5, 'trays', NULL)\nON DUPLICATE KEY UPDATE name=name;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 312dgmdUEzMUaK3.root --database Zag33ga6oUbL9GVhsFok4K --execute INSERT INTO equipment_constraints (name, capacity, unit, meal_capacity) VALUES \n('Oven', 2, 'ovens', 50),\n('Blast Chiller', 5, 'trays', NULL)\nON DUPLICATE KEY UPDATE name=name;",
+  "returncode": 1,
+  "logs": [
+    "ERROR 1054 (42S22) at line 1: Unknown column 'name' in 'field list'"
+  ]
+}

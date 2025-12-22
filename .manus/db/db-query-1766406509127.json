@@ -1,0 +1,50 @@
+{
+  "query": "SELECT * FROM inventory_items;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 312dgmdUEzMUaK3.root --database Zag33ga6oUbL9GVhsFok4K --execute SELECT * FROM inventory_items;",
+  "rows": [
+    {
+      "id": "1",
+      "name": "Chicken Breast",
+      "category": "protein",
+      "unit": "lbs",
+      "current_quantity": "50.00",
+      "min_threshold": "10.00",
+      "createdAt": "2025-12-22 11:45:08",
+      "updatedAt": "2025-12-22 11:45:08"
+    },
+    {
+      "id": "60001",
+      "name": "Chicken Breast",
+      "category": "protein",
+      "unit": "lbs",
+      "current_quantity": "50.00",
+      "min_threshold": "10.00",
+      "createdAt": "2025-12-22 12:11:31",
+      "updatedAt": "2025-12-22 12:11:31"
+    },
+    {
+      "id": "90001",
+      "name": "Beef",
+      "category": "protein",
+      "unit": "lbs",
+      "current_quantity": "10.00",
+      "min_threshold": "10.00",
+      "createdAt": "2025-12-22 12:15:38",
+      "updatedAt": "2025-12-22 12:15:38"
+    },
+    {
+      "id": "120001",
+      "name": "Beef",
+      "category": "protein",
+      "unit": "lbs",
+      "current_quantity": "12.00",
+      "min_threshold": "10.00",
+      "createdAt": "2025-12-22 12:27:38",
+      "updatedAt": "2025-12-22 12:27:38"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tname\tcategory\tunit\tcurrent_quantity\tmin_threshold\tcreatedAt\tupdatedAt\n1\tChicken Breast\tprotein\tlbs\t50.00\t10.00\t2025-12-22 11:45:08\t2025-12-22 11:45:08\n60001\tChicken Breast\tprotein\tlbs\t50.00\t10.00\t2025-12-22 12:11:31\t2025-12-22 12:11:31\n90001\tBeef\tprotein\tlbs\t10.00\t10.00\t2025-12-22 12:15:38\t2025-12-22 12:15:38\n120001\tBeef\tprotein\tlbs\t12.00\t10.00\t2025-12-22 12:27:38\t2025-12-22 12:27:38\n",
+  "stderr": "",
+  "execution_time_ms": 209
+}

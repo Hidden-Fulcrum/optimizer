@@ -1,0 +1,46 @@
+{
+  "query": "SHOW TABLES;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 312dgmdUEzMUaK3.root --database Zag33ga6oUbL9GVhsFok4K --execute SHOW TABLES;",
+  "rows": [
+    {
+      "Tables_in_Zag33ga6oUbL9GVhsFok4K": "__drizzle_migrations"
+    },
+    {
+      "Tables_in_Zag33ga6oUbL9GVhsFok4K": "equipment_constraints"
+    },
+    {
+      "Tables_in_Zag33ga6oUbL9GVhsFok4K": "inventory_counts"
+    },
+    {
+      "Tables_in_Zag33ga6oUbL9GVhsFok4K": "inventory_items"
+    },
+    {
+      "Tables_in_Zag33ga6oUbL9GVhsFok4K": "meal_items"
+    },
+    {
+      "Tables_in_Zag33ga6oUbL9GVhsFok4K": "production_log_tasks"
+    },
+    {
+      "Tables_in_Zag33ga6oUbL9GVhsFok4K": "production_logs"
+    },
+    {
+      "Tables_in_Zag33ga6oUbL9GVhsFok4K": "production_scenarios"
+    },
+    {
+      "Tables_in_Zag33ga6oUbL9GVhsFok4K": "scenario_items"
+    },
+    {
+      "Tables_in_Zag33ga6oUbL9GVhsFok4K": "task_templates"
+    },
+    {
+      "Tables_in_Zag33ga6oUbL9GVhsFok4K": "task_time_estimates"
+    },
+    {
+      "Tables_in_Zag33ga6oUbL9GVhsFok4K": "users"
+    }
+  ],
+  "messages": [],
+  "stdout": "Tables_in_Zag33ga6oUbL9GVhsFok4K\n__drizzle_migrations\nequipment_constraints\ninventory_counts\ninventory_items\nmeal_items\nproduction_log_tasks\nproduction_logs\nproduction_scenarios\nscenario_items\ntask_templates\ntask_time_estimates\nusers\n",
+  "stderr": "",
+  "execution_time_ms": 2070
+}

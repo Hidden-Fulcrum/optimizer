@@ -1,0 +1,9 @@
+{
+  "query": "INSERT INTO task_templates (name, task_type, default_duration_minutes, can_run_in_parallel, requires_equipment) \nVALUES ('Cook potatoes', 'cook_potatoes', 30, 1, 'oven');",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 312dgmdUEzMUaK3.root --database Zag33ga6oUbL9GVhsFok4K --execute INSERT INTO task_templates (name, task_type, default_duration_minutes, can_run_in_parallel, requires_equipment) \nVALUES ('Cook potatoes', 'cook_potatoes', 30, 1, 'oven');",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 58
+}

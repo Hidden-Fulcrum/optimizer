@@ -1,0 +1,76 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1766336955753,
+      "tag": "0000_many_shadow_king",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1766337083791,
+      "tag": "0001_faulty_bastion",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1766348424241,
+      "tag": "0002_bizarre_human_cannonball",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1766351479514,
+      "tag": "0003_yellow_hardball",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1766354846954,
+      "tag": "0004_ambitious_cable",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1766355751973,
+      "tag": "0005_worthless_lethal_legion",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1766355947007,
+      "tag": "0006_tiresome_midnight",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "5",
+      "when": 1766357213439,
+      "tag": "0007_harsh_martin_li",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "5",
+      "when": 1766400379808,
+      "tag": "0008_wide_kat_farrell",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "5",
+      "when": 1766403622666,
+      "tag": "0009_steady_risque",
+      "breakpoints": true
+    }
+  ]
+}

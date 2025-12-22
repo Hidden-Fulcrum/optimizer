@@ -1,0 +1,1 @@
+ALTER TABLE `task_templates` MODIFY COLUMN `task_type` enum('grind_protein','cook_protein','blast_chill','cook_rice_pasta','cook_potatoes','make_sauces','oatmeal_prep','assemble_meals','package_label','bake_desserts') NOT NULL;

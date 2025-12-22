@@ -1,0 +1,110 @@
+{
+  "query": "SELECT * FROM production_log_tasks WHERE production_log_id = 30001",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 312dgmdUEzMUaK3.root --database Zag33ga6oUbL9GVhsFok4K --execute SELECT * FROM production_log_tasks WHERE production_log_id = 30001",
+  "rows": [
+    {
+      "id": "30001",
+      "production_log_id": "30001",
+      "task_type": "passive",
+      "task_name": "Cook rice/pasta",
+      "estimated_minutes": "25",
+      "actual_minutes": "0",
+      "notes": "NULL",
+      "createdAt": "2025-12-22 10:42:27"
+    },
+    {
+      "id": "30002",
+      "production_log_id": "30001",
+      "task_type": "active",
+      "task_name": "Grind chicken (8.5 lbs)",
+      "estimated_minutes": "15",
+      "actual_minutes": "0",
+      "notes": "NULL",
+      "createdAt": "2025-12-22 10:42:27"
+    },
+    {
+      "id": "30003",
+      "production_log_id": "30001",
+      "task_type": "passive",
+      "task_name": "Cook chicken (2 trays)",
+      "estimated_minutes": "30",
+      "actual_minutes": "0",
+      "notes": "NULL",
+      "createdAt": "2025-12-22 10:42:27"
+    },
+    {
+      "id": "30004",
+      "production_log_id": "30001",
+      "task_type": "passive",
+      "task_name": "Blast chill chicken",
+      "estimated_minutes": "20",
+      "actual_minutes": "0",
+      "notes": "NULL",
+      "createdAt": "2025-12-22 10:42:27"
+    },
+    {
+      "id": "30005",
+      "production_log_id": "30001",
+      "task_type": "active",
+      "task_name": "Make sauces/sides",
+      "estimated_minutes": "20",
+      "actual_minutes": "0",
+      "notes": "NULL",
+      "createdAt": "2025-12-22 10:42:27"
+    },
+    {
+      "id": "30006",
+      "production_log_id": "30001",
+      "task_type": "active",
+      "task_name": "Grind beef (3.5 lbs)",
+      "estimated_minutes": "15",
+      "actual_minutes": "0",
+      "notes": "NULL",
+      "createdAt": "2025-12-22 10:42:27"
+    },
+    {
+      "id": "30007",
+      "production_log_id": "30001",
+      "task_type": "passive",
+      "task_name": "Cook beef (1 trays)",
+      "estimated_minutes": "30",
+      "actual_minutes": "0",
+      "notes": "NULL",
+      "createdAt": "2025-12-22 10:42:27"
+    },
+    {
+      "id": "30008",
+      "production_log_id": "30001",
+      "task_type": "passive",
+      "task_name": "Blast chill beef",
+      "estimated_minutes": "20",
+      "actual_minutes": "0",
+      "notes": "NULL",
+      "createdAt": "2025-12-22 10:42:27"
+    },
+    {
+      "id": "30009",
+      "production_log_id": "30001",
+      "task_type": "active",
+      "task_name": "Assemble meals",
+      "estimated_minutes": "40",
+      "actual_minutes": "0",
+      "notes": "NULL",
+      "createdAt": "2025-12-22 10:42:27"
+    },
+    {
+      "id": "30010",
+      "production_log_id": "30001",
+      "task_type": "active",
+      "task_name": "Package & label",
+      "estimated_minutes": "15",
+      "actual_minutes": "0",
+      "notes": "NULL",
+      "createdAt": "2025-12-22 10:42:27"
+    }
+  ],
+  "messages": [],
+  "stdout": "id\tproduction_log_id\ttask_type\ttask_name\testimated_minutes\tactual_minutes\tnotes\tcreatedAt\n30001\t30001\tpassive\tCook rice/pasta\t25\t0\tNULL\t2025-12-22 10:42:27\n30002\t30001\tactive\tGrind chicken (8.5 lbs)\t15\t0\tNULL\t2025-12-22 10:42:27\n30003\t30001\tpassive\tCook chicken (2 trays)\t30\t0\tNULL\t2025-12-22 10:42:27\n30004\t30001\tpassive\tBlast chill chicken\t20\t0\tNULL\t2025-12-22 10:42:27\n30005\t30001\tactive\tMake sauces/sides\t20\t0\tNULL\t2025-12-22 10:42:27\n30006\t30001\tactive\tGrind beef (3.5 lbs)\t15\t0\tNULL\t2025-12-22 10:42:27\n30007\t30001\tpassive\tCook beef (1 trays)\t30\t0\tNULL\t2025-12-22 10:42:27\n30008\t30001\tpassive\tBlast chill beef\t20\t0\tNULL\t2025-12-22 10:42:27\n30009\t30001\tactive\tAssemble meals\t40\t0\tNULL\t2025-12-22 10:42:27\n30010\t30001\tactive\tPackage & label\t15\t0\tNULL\t2025-12-22 10:42:27\n",
+  "stderr": "",
+  "execution_time_ms": 61
+}
